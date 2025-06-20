@@ -37,6 +37,16 @@
             transform: translateY(-5px);
             box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1), 0 4px 6px -2px rgba(37, 99, 235, 0.05);
         }
+        .blog-content h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #BFDBFE;
+        }
+         .blog-content strong {
+            color: #E0E7FF;
+        }
     </style>
 </head>
 <body>
@@ -49,6 +59,7 @@
             <div class="hidden md:flex items-center space-x-6">
                 <a href="#services" class="text-gray-300 hover:text-white transition">Services</a>
                 <a href="#product" class="text-gray-300 hover:text-white transition">Private AI Drive</a>
+                <a href="#blog" class="text-gray-300 hover:text-white transition">Blog</a>
                 <a href="#contact" class="text-gray-300 hover:text-white transition">Contact</a>
             </div>
             <a href="#contact" class="hidden md:block btn-primary text-white font-semibold px-5 py-2 rounded-lg">Get Started</a>
@@ -58,8 +69,9 @@
         </nav>
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
-            <a href="#services" class="block py-2 text-gray-300 hover:text-white">Services</a>
+             <a href="#services" class="block py-2 text-gray-300 hover:text-white">Services</a>
             <a href="#product" class="block py-2 text-gray-300 hover:text-white">Private AI Drive</a>
+            <a href="#blog" class="block py-2 text-gray-300 hover:text-white">Blog</a>
             <a href="#contact" class="block py-2 text-gray-300 hover:text-white">Contact</a>
             <a href="#contact" class="mt-2 block text-center w-full btn-primary text-white font-semibold px-5 py-2 rounded-lg">Get Started</a>
         </div>
@@ -89,19 +101,16 @@
                     <p class="mt-4 text-gray-400 max-w-2xl mx-auto">We offer a multi-pronged approach to leverage AI for your business, from bespoke consulting to innovative products.</p>
                 </div>
                 <div class="grid md:grid-cols-3 gap-8">
-                    <!-- Card 1: Consulting -->
                     <div class="card p-8 rounded-xl">
                         <div class="text-4xl text-blue-400 mb-4"><i class="fas fa-user-tie"></i></div>
                         <h3 class="text-2xl font-bold text-white mb-3">AI Consulting & Implementation</h3>
                         <p class="text-gray-400">Bespoke solutions for your unique challenges. We analyze your business, identify opportunities, and build custom data analysis and workflow automation systems.</p>
                     </div>
-                    <!-- Card 2: Products -->
                     <div class="card p-8 rounded-xl">
                         <div class="text-4xl text-blue-400 mb-4"><i class="fas fa-box-open"></i></div>
                         <h3 class="text-2xl font-bold text-white mb-3">SaaS & Digital Products</h3>
                         <p class="text-gray-400">Powerful, ready-to-use tools. Our flagship "Private AI Drive" offers secure, offline AI capabilities for handling sensitive documents.</p>
                     </div>
-                    <!-- Card 3: Media -->
                     <div class="card p-8 rounded-xl">
                         <div class="text-4xl text-blue-400 mb-4"><i class="fas fa-chart-line"></i></div>
                         <h3 class="text-2xl font-bold text-white mb-3">Digital Media & Affiliate Marketing</h3>
@@ -115,7 +124,6 @@
         <section id="product" class="py-20">
             <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <!-- Placeholder for product image -->
                     <div class="bg-gray-800 border border-gray-700 rounded-xl p-8 flex justify-center items-center shadow-2xl">
                         <i class="fas fa-usb fa-7x text-blue-500"></i>
                     </div>
@@ -137,9 +145,46 @@
                 </div>
             </div>
         </section>
+
+        <!-- NEW Blog Section -->
+        <section id="blog" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold section-title">From Our Blog</h2>
+                    <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Insights on AI, data privacy, and business strategy.</p>
+                </div>
+                <div class="max-w-4xl mx-auto bg-gray-800/50 border border-gray-700 rounded-xl p-8 md:p-12">
+                    <h2 class="text-2xl md:text-3xl font-bold text-white">For Professionals Everywhere: Why Data Privacy is Your Biggest Business Risk in 2025</h2>
+                    <p class="text-sm text-gray-500 mt-2">By Michael Hoskins, Founder of Synoptic AI</p>
+                    <div class="mt-6 text-gray-300 leading-relaxed space-y-4 blog-content">
+                        <p>
+                            As the founder of an AI company, I talk to business owners and professionals every day. We all share a common goal: using new technology to work smarter and stay competitive. But as we embrace the incredible power of modern AI, we're facing a new, invisible risk that many haven't yet considered: the privacy of our business data.
+                        </p>
+                        <p>
+                            Powerful AI tools like ChatGPT are ubiquitous, promising to supercharge productivity. They can draft an email, summarize a report, or brainstorm marketing ideas in seconds. The temptation to simply copy and paste a sensitive client contract, a confidential financial spreadsheet, or a new business plan into one of these tools is immense.
+                        </p>
+                        <h3>The Hard Question Every Professional Must Ask</h3>
+                        <p>
+                            But here is the hard question every professional needs to ask themselves: <strong>Do you know where your data goes when you do that?</strong> When you use a major cloud-based AI, you are sending your most confidential information to a third-party server owned by a massive tech corporation. That data is often used to train their future models, can be reviewed by their employees, and is stored in a data center thousands of miles away, completely outside of your control. For a lawyer, a financial advisor, or any business owner, that's not just a risk; it's a potential breach of client confidentiality and a major liability.
+                        </p>
+                        <h3>The "Hallucination" Problem: A Deeper Risk</h3>
+                        <p>
+                            Beyond privacy, there's the risk of accuracy. These large models are trained on the public internet. If they don't know a precise fact, they are known to "hallucinate"—to invent facts, legal cases, or figures that look correct but are completely false. For a professional whose reputation depends on accuracy, relying on this is a dangerous gamble.
+                        </p>
+                        <h3>The Secure, Local Solution</h3>
+                        <p>
+                            This is the exact problem I founded Synoptic AI to solve. Our flagship product, the <strong>Synoptic AI Private Drive</strong>, is a simple, plug-and-play USB drive that contains a powerful AI assistant that runs <strong>100% offline</strong> on your own computer. Your data never leaves the device, and the AI is "grounded" in your documents, meaning it can only answer questions based on the facts you provide, eliminating the risk of hallucinations.
+                        </p>
+                        <p>
+                            It’s not about avoiding AI. It’s about using AI the right way—securely, privately, and with full control. To learn more about how you can leverage AI securely, <a href="#product" class="text-blue-400 hover:underline">visit our product section</a> or contact us for a consultation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
         
         <!-- Contact Section -->
-        <section id="contact" class="py-20 bg-gray-900">
+        <section id="contact" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold section-title">Let's Build the Future of Your Business</h2>
@@ -169,7 +214,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-900/50 border-t border-gray-800">
+    <footer class="bg-gray-900 border-t border-gray-800">
         <div class="container mx-auto px-6 py-8 text-center text-gray-500">
             <p>&copy; 2025 Synoptic AI. All Rights Reserved.</p>
             <p class="mt-2 text-sm">Rochester, NY</p>
