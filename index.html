@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synoptic AI - Intelligent Solutions for Business</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0B1120;
+            color: #E0E7FF;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at top, rgba(19, 78, 74, 0.3), transparent 70%);
+        }
+        .btn-primary {
+            background-color: #2563EB;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #1D4ED8;
+        }
+        .section-title {
+            color: #93C5FD;
+        }
+        .card {
+            background-color: rgba(30, 41, 59, 0.5);
+            border: 1px solid #334155;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1), 0 4px 6px -2px rgba(37, 99, 235, 0.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-gray-900/50 backdrop-blur-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white">
+                <i class="fas fa-brain mr-2 text-blue-400"></i>Synoptic AI
+            </a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#services" class="text-gray-300 hover:text-white transition">Services</a>
+                <a href="#product" class="text-gray-300 hover:text-white transition">Private AI Drive</a>
+                <a href="#contact" class="text-gray-300 hover:text-white transition">Contact</a>
+            </div>
+            <a href="#contact" class="hidden md:block btn-primary text-white font-semibold px-5 py-2 rounded-lg">Get Started</a>
+            <button id="mobile-menu-button" class="md:hidden text-white">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#services" class="block py-2 text-gray-300 hover:text-white">Services</a>
+            <a href="#product" class="block py-2 text-gray-300 hover:text-white">Private AI Drive</a>
+            <a href="#contact" class="block py-2 text-gray-300 hover:text-white">Contact</a>
+            <a href="#contact" class="mt-2 block text-center w-full btn-primary text-white font-semibold px-5 py-2 rounded-lg">Get Started</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="py-20 md:py-32 hero-gradient">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight">
+                    Your On-Demand AI Partner for<br><span class="text-blue-400">Business Growth & Efficiency</span>
+                </h1>
+                <p class="mt-6 text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
+                    Synoptic AI delivers custom AI solutions, workflow automation, and data-driven intelligence to empower your small business to compete at the next level.
+                </p>
+                <div class="mt-10">
+                    <a href="#services" class="btn-primary text-white font-bold px-8 py-4 rounded-lg text-lg">Explore Our Solutions</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold section-title">Our Core Divisions</h2>
+                    <p class="mt-4 text-gray-400 max-w-2xl mx-auto">We offer a multi-pronged approach to leverage AI for your business, from bespoke consulting to innovative products.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Card 1: Consulting -->
+                    <div class="card p-8 rounded-xl">
+                        <div class="text-4xl text-blue-400 mb-4"><i class="fas fa-user-tie"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-3">AI Consulting & Implementation</h3>
+                        <p class="text-gray-400">Bespoke solutions for your unique challenges. We analyze your business, identify opportunities, and build custom data analysis and workflow automation systems.</p>
+                    </div>
+                    <!-- Card 2: Products -->
+                    <div class="card p-8 rounded-xl">
+                        <div class="text-4xl text-blue-400 mb-4"><i class="fas fa-box-open"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-3">SaaS & Digital Products</h3>
+                        <p class="text-gray-400">Powerful, ready-to-use tools. Our flagship "Private AI Drive" offers secure, offline AI capabilities for handling sensitive documents.</p>
+                    </div>
+                    <!-- Card 3: Media -->
+                    <div class="card p-8 rounded-xl">
+                        <div class="text-4xl text-blue-400 mb-4"><i class="fas fa-chart-line"></i></div>
+                        <h3 class="text-2xl font-bold text-white mb-3">Digital Media & Affiliate Marketing</h3>
+                        <p class="text-gray-400">Expert content and reviews. We test and showcase the latest in AI-capable hardware, providing tutorials and benchmarks to educate the market.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Feature Section -->
+        <section id="product" class="py-20">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <!-- Placeholder for product image -->
+                    <div class="bg-gray-800 border border-gray-700 rounded-xl p-8 flex justify-center items-center shadow-2xl">
+                        <i class="fas fa-usb fa-7x text-blue-500"></i>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold section-title">Introducing the Private AI Drive</h2>
+                    <p class="mt-6 text-gray-400 text-lg">
+                        The ultimate tool for professionals who demand absolute data privacy. Our Private AI Drive is a high-speed USB device pre-loaded with a powerful, offline AI model. Analyze sensitive documents, summarize reports, and ask complex questions with the complete assurance that your data never leaves your control.
+                    </p>
+                    <ul class="mt-6 space-y-3 text-gray-300">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-3"></i> 100% Offline - No Internet Required</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-3"></i> Zero Installation - Plug & Play on Windows</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-3"></i> Secure Document Q&A (PDF, DOCX, TXT)</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-3"></i> Available in Standard (Phi-3) & Pro (Llama 3) Editions</li>
+                    </ul>
+                    <div class="mt-8">
+                         <a href="#" class="btn-primary text-white font-bold px-8 py-3 rounded-lg text-lg">Learn More & Pre-Order</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold section-title">Let's Build the Future of Your Business</h2>
+                    <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Ready to leverage AI? Have a question about our products? Reach out and let's start the conversation.</p>
+                </div>
+                <div class="max-w-2xl mx-auto">
+                    <form action="#" method="POST" class="space-y-6">
+                        <div>
+                            <label for="name" class="sr-only">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Your Name" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label for="email" class="sr-only">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Your Email" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label for="message" class="sr-only">Message</label>
+                            <textarea name="message" id="message" rows="5" placeholder="Your Message" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn-primary text-white font-bold px-10 py-3 rounded-lg text-lg">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900/50 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500">
+            <p>&copy; 2025 Synoptic AI. All Rights Reserved.</p>
+            <p class="mt-2 text-sm">Rochester, NY</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
