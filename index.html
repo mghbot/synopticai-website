@@ -1,212 +1,318 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synoptic AI - Intelligent Solutions for Business</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Michael Hoskins - AI Research & Development</title>
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #0B1120;
-            color: #E0E7FF;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .hero-gradient {
-            background: radial-gradient(circle at top, rgba(19, 78, 74, 0.3), transparent 70%);
-        }
-        .btn-primary {
-            background-color: #2563EB;
-            transition: background-color 0.3s ease;
-        }
-        .btn-primary:hover {
-            background-color: #1D4ED8;
-        }
-        .section-title {
-            color: #93C5FD;
-        }
-        .card {
-            background-color: rgba(30, 41, 59, 0.5);
-            border: 1px solid #334155;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1), 0 4px 6px -2px rgba(37, 99, 235, 0.05);
-        }
-
-                <a href="#contact" class="text-gray-300 hover:text-white transition">Contact</a>
-            </div>
-            <a href="#contact" class="hidden md:block btn-primary text-white font-semibold px-5 py-2 rounded-lg">Get Started</a>
-            <button id="mobile-menu-button" class="md:hidden text-white">
-                <i class="fas fa-bars text-2xl"></i>
-            </button>
-        </nav>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
-             <a href="#services" class="block py-2 text-gray-300 hover:text-white">Services</a>
-            <a href="#product" class="block py-2 text-gray-300 hover:text-white">Private AI Drive</a>
-            <a href="#blog" class="block py-2 text-gray-300 hover:text-white">Blog</a>
-            <a href="#contact" class="block py-2 text-gray-300 hover:text-white">Contact</a>
-            <a href="#contact" class="mt-2 block text-center w-full btn-primary text-white font-semibold px-5 py-2 rounded-lg">Get Started</a>
-        </div>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="py-20 md:py-32 hero-gradient">
-            <div class="container mx-auto px-6 text-center">
-                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight">
-                    Your On-Demand AI Partner for<br><span class="text-blue-400">Business Growth & Efficiency</span>
-                </h1>
-                <p class="mt-6 text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
-                    Synoptic AI delivers custom AI solutions, workflow automation, and data-driven intelligence to empower your small business to compete at the next level.
-                </p>
-                <div class="mt-10">
-                    <a href="#services" class="btn-primary text-white font-bold px-8 py-4 rounded-lg text-lg">Explore Our Solutions</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <section id="services" class="py-20 bg-gray-900">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold section-title">Our Core Divisions</h2>
-                    <p class="mt-4 text-gray-400 max-w-2xl mx-auto">We offer a multi-pronged approach to leverage AI for your business, from bespoke consulting to innovative products.</p>
-                </div>
-                <div class="grid md:grid-cols-3 gap-8">
-                    <div class="card p-8 rounded-xl">
-                        <div class="text-4xl text-blue-400 mb-4"><i class="fas fa-user-tie"></i></div>
-                        <h3 class="text-2xl font-bold text-white mb-3">AI Consulting & Implementation</h3>
-                        <p class="text-gray-400">Bespoke solutions for your unique challenges. We analyze your business, identify opportunities, and build custom data analysis and workflow automation systems.</p>
-                    </div>
-                    <div class="card p-8 rounded-xl">
-                        <div class="text-4xl text-blue-400 mb-4"><i class="fas fa-box-open"></i></div>
-                        <h3 class="text-2xl font-bold text-white mb-3">SaaS & Digital Products</h3>
-                        <p class="text-gray-400">Powerful, ready-to-use tools. Our flagship "Private AI Drive" offers secure, offline AI capabilities for handling sensitive documents.</p>
-                    </div>
-                    <div class="card p-8 rounded-xl">
-                        <div class="text-4xl text-blue-400 mb-4"><i class="fas fa-chart-line"></i></div>
-                        <h3 class="text-2xl font-bold text-white mb-3">Digital Media & Affiliate Marketing</h3>
-                        <p class="text-gray-400">Expert content and reviews. We test and showcase the latest in AI-capable hardware, providing tutorials and benchmarks to educate the market.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Product Feature Section -->
-        <section id="product" class="py-20">
-            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <div class="bg-gray-800 border border-gray-700 rounded-xl p-8 flex justify-center items-center shadow-2xl">
-                        <i class="fas fa-usb fa-7x text-blue-500"></i>
-                    </div>
-                </div>
-                <div>
-                    <h2 class="text-3xl md:text-4xl font-bold section-title">Introducing the Private AI Drive</h2>
-                    <p class="mt-6 text-gray-400 text-lg">
-                        The ultimate tool for professionals who demand absolute data privacy. Our Private AI Drive is a high-speed USB device pre-loaded with a powerful, offline AI model. Analyze sensitive documents, summarize reports, and ask complex questions with the complete assurance that your data never leaves your control.
-                    </p>
-                    <ul class="mt-6 space-y-3 text-gray-300">
-                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-3"></i> 100% Offline - No Internet Required</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-3"></i> Zero Installation - Plug & Play on Windows</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-3"></i> Secure Document Q&A (PDF, DOCX, TXT)</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-3"></i> Available in Standard (Phi-3) & Pro (Llama 3) Editions</li>
-                    </ul>
-                    <div class="mt-8">
-                         <a href="#" class="btn-primary text-white font-bold px-8 py-3 rounded-lg text-lg">Learn More & Pre-Order</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- NEW Blog Section -->
-        <section id="blog" class="py-20 bg-gray-900">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold section-title">From Our Blog</h2>
-                    <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Insights on AI, data privacy, and business strategy.</p>
-                </div>
-                <div class="max-w-4xl mx-auto bg-gray-800/50 border border-gray-700 rounded-xl p-8 md:p-12">
-                    <h2 class="text-2xl md:text-3xl font-bold text-white">For Professionals Everywhere: Why Data Privacy is Your Biggest Business Risk in 2025</h2>
-                    <p class="text-sm text-gray-500 mt-2">By Michael Hoskins, Founder of Synoptic AI</p>
-                    <div class="mt-6 text-gray-300 leading-relaxed space-y-4 blog-content">
-                        <p>
-                            As the founder of an AI company, I talk to business owners and professionals every day. We all share a common goal: using new technology to work smarter and stay competitive. But as we embrace the incredible power of modern AI, we're facing a new, invisible risk that many haven't yet considered: the privacy of our business data.
-                        </p>
-                        <p>
-                            Powerful AI tools like ChatGPT are ubiquitous, promising to supercharge productivity. They can draft an email, summarize a report, or brainstorm marketing ideas in seconds. The temptation to simply copy and paste a sensitive client contract, a confidential financial spreadsheet, or a new business plan into one of these tools is immense.
-                        </p>
-                        <h3>The Hard Question Every Professional Must Ask</h3>
-                        <p>
-                            But here is the hard question every professional needs to ask themselves: <strong>Do you know where your data goes when you do that?</strong> When you use a major cloud-based AI, you are sending your most confidential information to a third-party server owned by a massive tech corporation. That data is often used to train their future models, can be reviewed by their employees, and is stored in a data center thousands of miles away, completely outside of your control. For a lawyer, a financial advisor, or any business owner, that's not just a risk; it's a potential breach of client confidentiality and a major liability.
-                        </p>
-                        <h3>The "Hallucination" Problem: A Deeper Risk</h3>
-                        <p>
-                            Beyond privacy, there's the risk of accuracy. These large models are trained on the public internet. If they don't know a precise fact, they are known to "hallucinate"—to invent facts, legal cases, or figures that look correct but are completely false. For a professional whose reputation depends on accuracy, relying on this is a dangerous gamble.
-                        </p>
-                        <h3>The Secure, Local Solution</h3>
-                        <p>
-                            This is the exact problem I founded Synoptic AI to solve. Our flagship product, the <strong>Synoptic AI Private Drive</strong>, is a simple, plug-and-play USB drive that contains a powerful AI assistant that runs <strong>100% offline</strong> on your own computer. Your data never leaves the device, and the AI is "grounded" in your documents, meaning it can only answer questions based on the facts you provide, eliminating the risk of hallucinations.
-                        </p>
-                        <p>
-                            It’s not about avoiding AI. It’s about using AI the right way—securely, privately, and with full control. To learn more about how you can leverage AI securely, <a href="#product" class="text-blue-400 hover:underline">visit our product section</a> or contact us for a consultation.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
         
-        <!-- Contact Section -->
-        <section id="contact" class="py-20">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold section-title">Let's Build the Future of Your Business</h2>
-                    <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Ready to leverage AI? Have a question about our products? Reach out and let's start the conversation.</p>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 0;
+            border-bottom: 2px solid #1a1a1a;
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #00ff88;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            color: #888;
+            margin-bottom: 20px;
+        }
+        
+        .bio {
+            max-width: 800px;
+            margin: 20px auto;
+            color: #aaa;
+            line-height: 1.8;
+        }
+        
+        .credentials {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .credential-badge {
+            background: #111;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #00ff88;
+            color: #00ff88;
+            font-size: 0.9em;
+        }
+        
+        .section {
+            margin: 60px 0;
+        }
+        
+        .section-title {
+            font-size: 2em;
+            color: #00ff88;
+            margin-bottom: 30px;
+            border-left: 4px solid #00ff88;
+            padding-left: 20px;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .project-card {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 8px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .project-card:hover {
+            border-color: #00ff88;
+            transform: translateY(-5px);
+        }
+        
+        .project-title {
+            font-size: 1.5em;
+            color: #00ff88;
+            margin-bottom: 15px;
+        }
+        
+        .project-desc {
+            color: #aaa;
+            margin-bottom: 15px;
+        }
+        
+        .project-specs {
+            font-size: 0.9em;
+            color: #666;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            background: #ff6b00;
+            color: #000;
+            padding: 5px 15px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 0.85em;
+            margin-top: 10px;
+        }
+        
+        .contact {
+            text-align: center;
+            padding: 40px;
+            background: #111;
+            border-radius: 8px;
+            margin-top: 60px;
+        }
+        
+        .contact a {
+            color: #00ff88;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 15px;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #555;
+            border-top: 1px solid #1a1a1a;
+            margin-top: 60px;
+        }
+        
+        .highlight-box {
+            background: #1a1a1a;
+            border-left: 4px solid #ff6b00;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Michael Hoskins</h1>
+            <div class="subtitle">Independent AI Researcher | Founder, Synoptic AI</div>
+            
+            <div class="credentials">
+                <div class="credential-badge">USCF 1800 Chess Player</div>
+                <div class="credential-badge">Top 500 Worldwide Poker</div>
+                <div class="credential-badge">Google IT Support Certified</div>
+            </div>
+            
+            <div class="bio">
+                Over a decade studying intelligence, creativity, psychology, neuroplasticity, and cognitive science. 
+                Building breakthrough AI architectures through novel approaches to neural architecture design, 
+                emergence-based intelligence, and neuro-symbolic systems. Specializing in geometric intelligence, 
+                holographic compression techniques, and multi-agent collision systems.
+            </div>
+            
+            <div class="highlight-box">
+                <strong style="color: #ff6b00;">Multiple patents pending</strong> on novel AI architectures and methodologies<br>
+                <strong style="color: #ff6b00;">Grant applications in progress</strong> for AI research and development
+            </div>
+        </header>
+
+        <section class="section">
+            <h2 class="section-title">AI Research Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-title">E (Emergent Intelligence)</div>
+                    <div class="project-desc">
+                        Multi-expert collision analysis framework using 13-18 specialist AI agents. 
+                        Generates novel solutions through cross-pollination of insights. Validated to 
+                        consistently outperform frontier models on complex multi-domain problems through 
+                        specialist collision methodology.
+                    </div>
+                    <div class="project-specs">Status: Production-ready | Validated against GPT-OSS-120B</div>
+                    <div class="status-badge">PATENT PENDING</div>
                 </div>
-                <div class="max-w-2xl mx-auto">
-                    <form action="#" method="POST" class="space-y-6">
-                        <div>
-                            <label for="name" class="sr-only">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Your Name" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
-                        </div>
-                        <div>
-                            <label for="email" class="sr-only">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Your Email" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
-                        </div>
-                        <div>
-                            <label for="message" class="sr-only">Message</label>
-                            <textarea name="message" id="message" rows="5" placeholder="Your Message" required class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="btn-primary text-white font-bold px-10 py-3 rounded-lg text-lg">Send Message</button>
-                        </div>
-                    </form>
+
+                <div class="project-card">
+                    <div class="project-title">HOLOPHASE v2</div>
+                    <div class="project-desc">
+                        128M parameter neural architecture using geometric intelligence and z-space principles. 
+                        Combines frozen DCT basis with trainable Hermitian cores. Successfully trained on 
+                        FineWeb-Edu dataset, demonstrating z-space principles effectively learn language modeling tasks.
+                    </div>
+                    <div class="project-specs">Parameters: 128M | Training: Complete</div>
+                    <div class="status-badge">PATENT PENDING</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">μ-ALM v2</div>
+                    <div class="project-desc">
+                        241M parameter architecture featuring ternary attention and dynamic weight generation. 
+                        Novel approach to parameter efficiency through adaptive weight synthesis during inference. 
+                        Achieves superior performance through architectural innovation rather than brute-force scaling.
+                    </div>
+                    <div class="project-specs">Parameters: 241M | Architecture: Ternary + Dynamic</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Retro-Gemma</div>
+                    <div class="project-desc">
+                        35% sparsity controller on Gemma 2B that maintains coherent text generation. 
+                        Successfully completed training and ready for validation testing. Demonstrates 
+                        significant efficiency gains through structured sparsity mechanisms.
+                    </div>
+                    <div class="project-specs">Base: Gemma 2B | Sparsity: 35% | Status: Testing Phase</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Holographic Compression</div>
+                    <div class="project-desc">
+                        Achieved 8x parameter reduction with minimal accuracy loss through holographic 
+                        compression techniques. Novel approach to model compression inspired by holographic 
+                        information encoding principles. Breakthrough in parameter efficiency.
+                    </div>
+                    <div class="project-specs">Compression: 8x | Accuracy: Minimal loss</div>
+                    <div class="status-badge">PATENT PENDING</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Phase-Space Routing</div>
+                    <div class="project-desc">
+                        System that organizes mathematical operations by "fundamentalness" through energy depth 
+                        measurements. Creates hierarchical operation structures for more efficient computation graphs. 
+                        Neuro-symbolic approach to computational optimization.
+                    </div>
+                    <div class="project-specs">Type: Neuro-symbolic routing system</div>
                 </div>
             </div>
         </section>
-    </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 border-t border-gray-800">
-        <div class="container mx-auto px-6 py-8 text-center text-gray-500">
-            <p>&copy; 2025 Synoptic AI. All Rights Reserved.</p>
-            <p class="mt-2 text-sm">Rochester, NY</p>
+        <section class="section">
+            <h2 class="section-title">Cybersecurity & Enterprise Solutions</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-title">Blockchain Vulnerability Detection</div>
+                    <div class="project-desc">
+                        Comprehensive AI-powered platform for detecting vulnerabilities in blockchain protocols 
+                        and smart contracts. Automated security analysis targeting enterprise cybersecurity market.
+                    </div>
+                    <div class="project-specs">Target: Enterprise Security | Bug Bounty Platform</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Smart Contract Security Scanner</div>
+                    <div class="project-desc">
+                        Automated bug hunting and security analysis for Ethereum and multi-chain smart contracts. 
+                        Deep pattern recognition for exploit detection and vulnerability assessment.
+                    </div>
+                    <div class="project-specs">Platform: Multi-chain | Automated Analysis</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Multi-Agent Security Architecture</div>
+                    <div class="project-desc">
+                        Sophisticated multi-agent system for automated penetration testing and vulnerability 
+                        discovery. Leverages AI-powered analysis for comprehensive security assessment.
+                    </div>
+                    <div class="project-specs">Type: Automated Security Testing</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Research Approach</h2>
+            <div class="bio">
+                My research focuses on architectural innovation rather than brute-force scaling. By exploring 
+                novel approaches like geometric intelligence, holographic compression, ternary quantization, 
+                and emergence-based multi-agent systems, I develop AI architectures that achieve superior 
+                performance through fundamental innovations in how neural networks process and represent information.
+                <br><br>
+                Drawing from over a decade of studying intelligence, creativity, and cognitive science, combined 
+                with competitive strategic game experience (chess, poker), I approach AI research with a unique 
+                perspective on emergence, strategic thinking, and optimal decision-making under uncertainty.
+            </div>
+        </section>
+
+        <div class="contact">
+            <div style="margin-bottom: 20px; font-size: 1.3em;">Get In Touch</div>
+            <a href="https://github.com/mghbot">GitHub</a>
+            <a href="mailto:michael.hoskins@synopticai.io">Email</a>
         </div>
-    </footer>
 
-    <script>
-        // Mobile menu toggle
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-    </script>
+        <footer>
+            <p>Michael Hoskins | Rochester, NY | Synoptic AI © 2025</p>
+        </footer>
+    </div>
 </body>
-
 </html>
